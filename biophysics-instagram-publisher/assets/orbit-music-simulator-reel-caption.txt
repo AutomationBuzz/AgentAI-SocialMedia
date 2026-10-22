@@ -1,0 +1,7 @@
+Press play on Orbit: an original electronic instrumental, synthesized in the browser.
+
+This 20-second mobile demo shows the same Orbit music simulator in action: the waveform follows the live audio signal, with working play, pause, seek and volume controls. Hear Neon Current at 96 BPM, including the brief pause and volume change shown on screen.
+
+Built with HTML, CSS, JavaScript and the Web Audio API, not Flutter. The app synthesizes drums, bass, melody and echo, offers three original sound presets, and can export each track as a stereo WAV. This reel uses the actual simulator UI and its synthesized audio, not a mockup or a replacement song.
+
+#WebAudio #CreativeCoding #MusicSimulator #ElectronicMusic #JavaScript

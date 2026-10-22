@@ -1,0 +1,131 @@
+{
+  "duration_seconds": 20.0,
+  "frames": 600,
+  "fps": 30,
+  "resolution": [
+    720,
+    1280
+  ],
+  "video_codec": "h264",
+  "pixel_format": "yuv420p",
+  "audio_codec": "aac",
+  "audio_rms": 0.03503791468790194,
+  "audio_rms_dbfs": -29.109234983005315,
+  "audio_peak": 0.358062744140625,
+  "sampled_frame_rgb_means": [
+    [
+      28.261043836805555,
+      41.35971028645833,
+      36.384072265625
+    ],
+    [
+      21.792249348958332,
+      32.150479600694446,
+      24.88040473090278
+    ],
+    [
+      21.84741970486111,
+      32.242841796875,
+      24.846639539930557
+    ],
+    [
+      21.931346571180555,
+      32.34972222222222,
+      24.879073350694444
+    ]
+  ],
+  "source_video_start_seconds": 1.4333333333333333,
+  "capture_timeline": [
+    {
+      "time": 0.004100000381469727,
+      "playing": true,
+      "selected": 0,
+      "position": 0,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0
+    },
+    {
+      "time": 2.899,
+      "playing": true,
+      "selected": 0,
+      "position": 2.896,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0.03513026237487793
+    },
+    {
+      "time": 8.021900000095368,
+      "playing": false,
+      "selected": 0,
+      "position": 8.015999999999998,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0.011777453124523163
+    },
+    {
+      "time": 8.620300000190735,
+      "playing": true,
+      "selected": 0,
+      "position": 8.016,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0
+    },
+    {
+      "time": 11.023800000190734,
+      "playing": true,
+      "selected": 0,
+      "position": 10,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0.04724820330739021
+    },
+    {
+      "time": 14.022300000190734,
+      "playing": true,
+      "selected": 0,
+      "position": 12.99733333333333,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0.011870780028402805
+    },
+    {
+      "time": 16.0177000002861,
+      "playing": true,
+      "selected": 0,
+      "position": 14.992,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.4000000059604645,
+      "contextState": "running",
+      "analyserPeak": 0.0006902513559907675
+    },
+    {
+      "time": 20.017300000190733,
+      "playing": true,
+      "selected": 0,
+      "position": 18.992,
+      "repeating": false,
+      "muted": false,
+      "volume": 0.699999988079071,
+      "contextState": "running",
+      "analyserPeak": 0.006315781734883785
+    }
+  ],
+  "browser_errors": [],
+  "source": "Actual mobile browser UI and captured Web Audio master output; no replacement soundtrack.",
+  "published": false
+}
