@@ -1,0 +1,38 @@
+{
+  "asset": "orbit-music-simulator-reel-mp3.mp4",
+  "sha256": "07e629fe3c718c499983b177bf4486dd2d4bfdfc3d78a2389e20b5740bcf2c3e",
+  "video_codec": "h264",
+  "pixel_format": "yuv420p",
+  "resolution": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "video_stream_unchanged": true,
+  "audio_codec": "mp3",
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "audio_duration_seconds": 20.016979166666665,
+  "audio_rms_dbfs": -29.372825580182674,
+  "audio_peak": 0.357177734375,
+  "full_decode_passed": true,
+  "browser_decode": {
+    "original_aac": "EncodingError: Unable to decode audio data",
+    "mp3_decode_passed": true,
+    "channels": 2,
+    "sample_rate": 48000,
+    "duration_seconds": 20.016979166666665,
+    "rms": 0.033859448137410035,
+    "peak": 0.3572191596031189,
+    "local_playback_audio_decoded_bytes": 12672,
+    "instagram_editor_audio_decoded_bytes": 6336,
+    "instagram_editor_sound_on": true,
+    "instagram_composer_identity": "wowscifi_lab",
+    "caption_matches_approved": true,
+    "caption_characters": 721,
+    "crop": "Original"
+  },
+  "published": true,
+  "permalink": "https://www.instagram.com/reel/DezM67wSQtp/",
+  "publication_receipt": "receipts/instagram-DezM67wSQtp.json"
+}
