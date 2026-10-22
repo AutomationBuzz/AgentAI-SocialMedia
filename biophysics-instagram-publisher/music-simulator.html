@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101713">
+<title>Orbit / Music Simulator</title>
+<style>
+:root{color-scheme:dark;--bg:#101713;--ink:#f2f5ee;--muted:#a4b2a8;--lime:#d4f76e;--line:#ffffff24;--pink:#f4a3b8;font-family:"Avenir Next",Avenir,"Segoe UI",sans-serif;letter-spacing:0}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#344437 0%,transparent 55%),var(--bg);color:var(--ink);min-height:100svh}button,input{font:inherit}button{cursor:pointer;color:inherit}button:disabled{cursor:wait;opacity:.55}button:focus-visible,input:focus-visible{outline:2px solid var(--pink);outline-offset:5px}button{touch-action:manipulation}.shell{max-width:1080px;margin:auto;padding:0 36px}header{height:88px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.brand{font-size:24px;font-weight:800}.brand span{color:var(--lime)}.edition{font-size:11px;letter-spacing:2px;color:var(--muted)}main{padding:46px 0 30px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px}.eyebrow{font-size:11px;letter-spacing:2px;color:var(--lime);margin:0 0 18px}.cover{position:relative;aspect-ratio:1;overflow:hidden;background:#243b37;border-radius:8px}.cover img{width:100%;height:100%;object-fit:cover;display:block}.cover-label{position:absolute;bottom:18px;left:18px;background:#101713e8;padding:10px 12px;font-size:11px;letter-spacing:2px}.track-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:23px}h1{font-size:32px;line-height:1.1;margin:0 0 9px;font-weight:600}.artist{color:var(--muted);font-size:13px;margin:0}.icon{width:42px;height:42px;border:1px solid var(--line);border-radius:50%;background:transparent;display:grid;place-items:center;flex-shrink:0;font-size:21px}.icon:hover{background:#ffffff10}.icon[aria-pressed=true]{color:var(--lime);border-color:var(--lime)}.icon svg{width:19px;height:19px}h2{font-size:22px;font-weight:500;margin:0}.selector-head{display:flex;justify-content:space-between;align-items:center}.selector-head span{font-size:12px;color:var(--muted)}.orbit{position:relative;margin:22px 0 14px;padding:18px 0;overflow:hidden;isolation:isolate}.orbit:before{content:"";position:absolute;z-index:-1;width:460px;height:460px;border:1px solid #ffffff18;border-radius:50%;left:106px;top:-93px}.preset{display:flex;align-items:center;width:calc(100% - 40px);gap:16px;border:0;background:transparent;text-align:left;padding:18px 8px;min-height:85px;transition:transform .35s,color .35s;transform:translateX(26px);color:var(--muted)}.preset[aria-pressed=true]{transform:translateX(0);color:var(--ink)}.preset .number{display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;width:42px;height:42px;font-size:12px;flex-shrink:0}.preset[aria-pressed=true] .number{background:var(--lime);border-color:var(--lime);color:#152013}.preset strong{display:block;font-size:21px;font-weight:500}.preset small{display:block;font-size:11px;margin-top:5px;color:var(--muted)}.preset .dot{width:6px;height:6px;border-radius:50%;margin-left:auto;background:var(--pink);opacity:0}.preset[aria-pressed=true] .dot{opacity:1}.metadata{display:flex;gap:22px;padding:17px 0;border-block:1px solid var(--line);font-size:11px;color:var(--muted)}.metadata b{font-weight:500;color:var(--ink)}.wave-head{display:flex;justify-content:space-between;align-items:center;margin-top:23px;font-size:10px;letter-spacing:1.5px;color:var(--muted)}#status{color:var(--lime);letter-spacing:0}canvas{display:block;width:100%;height:76px;margin:8px 0}input[type=range]{accent-color:var(--lime);cursor:pointer;width:100%;height:18px;margin:0}.times{display:flex;justify-content:space-between;font-variant-numeric:tabular-nums;font-size:11px;color:var(--muted);margin-top:5px}.transport{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:22px 0}.play{width:66px;height:66px;background:var(--lime);color:#162014;border:0;font-size:27px}.play:hover{background:#e4ff9e}.secondary{display:flex;gap:9px}.volume{display:flex;gap:12px;align-items:center;max-width:180px;margin:auto}.volume input{min-width:0}.volume output{font-size:11px;color:var(--muted);width:34px;flex-shrink:0}footer{padding:20px 0 26px;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:10px;letter-spacing:1.5px}.player{animation:arrive .6s ease-out}.library{animation:arrive .8s ease-out}@keyframes arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}@media(max-width:700px){.shell{padding:0 23px;max-width:480px}header{height:68px}.edition{font-size:9px}main{padding:26px 0;display:flex;flex-direction:column;gap:30px}.cover{aspect-ratio:1.2}.track-head{margin-top:18px}h1{font-size:28px}.eyebrow{margin-bottom:12px}.orbit{margin:12px 0 8px;padding:0}.preset{min-height:72px;padding:12px 8px}.preset strong{font-size:19px}.orbit:before{top:-123px}.wave-head{margin-top:18px}footer{font-size:8px;gap:12px}.transport{margin:18px 0}.metadata{gap:18px}}@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header><div class="brand">orbit<span>.</span></div><span class="edition">SOUND EXPLORER / 001</span></header>
+<main>
+<section class="player" aria-label="Now playing">
+<p class="eyebrow">INDEPENDENT FREQUENCIES</p>
+<div class="cover"><img src="assets/wowscifi-lab-robot-avatar.png" alt="Sci-fi laboratory robot album artwork"><span class="cover-label">ORBIT SESSIONS / VOL. 01</span></div>
+<div class="track-head"><div><h1 id="track-title">Neon Current</h1><p class="artist">Orbit Studio &middot; Electronic instrumental</p></div><button class="icon" id="download" aria-label="Download original WAV" title="Download original WAV" disabled><i data-lucide="download" aria-hidden="true">&#8595;</i></button></div>
+</section>
+<section class="library" aria-label="Music controls">
+<div class="selector-head"><h2>Find your frequency.</h2><span>01 &mdash; 03</span></div>
+<div class="orbit" id="presets" role="group" aria-label="Sound presets">
+<button class="preset" data-preset="0" aria-pressed="true"><span class="number">01</span><span><strong>Neon Current</strong><small>A MINOR / ANALOG PULSE</small></span><span class="dot"></span></button>
+<button class="preset" data-preset="1" aria-pressed="false"><span class="number">02</span><span><strong>Glass Satellite</strong><small>D MINOR / CRYSTAL KEYS</small></span><span class="dot"></span></button>
+<button class="preset" data-preset="2" aria-pressed="false"><span class="number">03</span><span><strong>After Hours</strong><small>C MINOR / DEEP GROOVE</small></span><span class="dot"></span></button>
+</div>
+<div class="metadata"><span><b>96</b> BPM</span><span><b>20</b> SEC</span><span><b>STEREO</b></span><span id="key">A MINOR</span></div>
+<div class="wave-head"><span>LIVE SIGNAL</span><span id="status" role="status">Ready</span></div>
+<canvas id="wave" aria-label="Live audio waveform"></canvas>
+<input id="seek" type="range" min="0" max="20" step="0.01" value="0" aria-label="Playback position" aria-valuetext="0 seconds of 20">
+<div class="times"><span id="elapsed">0:00</span><span>0:20</span></div>
+<div class="transport">
+<button class="icon" id="repeat" aria-label="Repeat" title="Repeat" aria-pressed="false"><i data-lucide="repeat" aria-hidden="true">&#8635;</i></button>
+<button class="icon" id="previous" aria-label="Previous preset" title="Previous preset"><i data-lucide="skip-back" aria-hidden="true">&#9198;</i></button>
+<button class="icon play" id="play" aria-label="Play" title="Play">&#9654;</button>
+<button class="icon" id="next" aria-label="Next preset" title="Next preset"><i data-lucide="skip-forward" aria-hidden="true">&#9197;</i></button>
+<button class="icon" id="restart" aria-label="Restart track" title="Restart track"><i data-lucide="rotate-ccw" aria-hidden="true">&#8634;</i></button>
+</div>
+<div class="volume"><button class="icon" id="mute" aria-label="Mute" title="Mute" aria-pressed="false"><i data-lucide="volume-2" aria-hidden="true">&#9834;</i></button><input id="volume" type="range" min="0" max="1" step="0.01" value="0.7" aria-label="Volume"><output id="volume-value" for="volume">70%</output></div>
+</section>
+</main>
+<footer><span>ORIGINAL SOUND / NO VOCALS</span><span>ORBIT STUDIO &copy; 2026</span></footer>
+</div>
+<script src="music-simulator.js"></script>
+<script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" onload="lucide.createIcons()" async></script>
+</body>
+</html>
