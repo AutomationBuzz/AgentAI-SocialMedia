@@ -1,0 +1,11 @@
+What does a low score on one memory task actually tell us? In CDC NHANES 2011-2012, 1,451 completed CERAD delayed word-recall tests (ages 60-80) had scores from 0 to 10. Using the NHANES MEC examination weights, 9.59% fell in the 0-2 score band; 175 people were in that band (12.06% of this tested sample, unweighted).
+
+Important: 0-2 is a visualization band chosen for this graphic, NOT a clinical cutoff or diagnosis. This one older survey cycle is not current prevalence; a single word-recall task does not define a person's memory or health. The bars show weighted descriptive shares; no confidence interval is displayed.
+
+The sleep research connection is separate: Chang et al. studied mice, not people. Animal findings help generate questions but do not prove the same mechanism in humans.
+
+Data and codebooks: CDC NHANES CFQ_G (https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/CFQ_G.htm), DEMO_G (https://wwwn.cdc.gov/Nchs/Nhanes/2011-2012/DEMO_G.htm), public XPT files CFQ_G.xpt and DEMO_G.xpt. NHANES overview: https://www.cdc.gov/nchs/nhanes/about/index.html
+Sleep study: Chang et al. (2025), Nature 637, 1161-1169, https://doi.org/10.1038/s41586-024-08340-w
+Brain background: NINDS Brain Basics, https://www.ninds.nih.gov/health-information/public-education/brain-basics
+
+#MemoryResearch #Neuroscience #BrainHealth #ScienceCommunication #NHANES

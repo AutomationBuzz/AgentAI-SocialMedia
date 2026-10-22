@@ -1,0 +1,176 @@
+{
+  "full_decode_passed": true,
+  "decoded_frames": 4320,
+  "duration_seconds": 180.0,
+  "width": 720,
+  "height": 1280,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "fps": 24,
+  "constant_frame_timestamps_passed": true,
+  "audio_streams": 1,
+  "audio_codec": "aac",
+  "audio_rate": 48000,
+  "decoded_audio_duration_seconds": 180.01066666666668,
+  "audio_rms_dbfs": -15.69,
+  "audio_peak_dbfs": -2.7,
+  "audio_clipped_samples": 0,
+  "longest_silence_below_minus_50_db_seconds": 1.4,
+  "audio_scene_rms_dbfs": [
+    -15.01,
+    -16.6,
+    -15.99,
+    -15.95,
+    -16.03,
+    -16.22,
+    -16.16,
+    -16.03,
+    -15.47,
+    -15.01,
+    -14.56,
+    -15.69
+  ],
+  "motion_mean_absolute_difference_per_scene": [
+    14.376,
+    21.117,
+    15.21,
+    16.246,
+    3.289,
+    21.131,
+    15.216,
+    17.499,
+    0.448,
+    0.446,
+    17.526,
+    0.58
+  ],
+  "nonblank_all_scenes": true,
+  "text_bounds_nonoverlap_assertions": true,
+  "contrast_black_on_white_ratio": 18.88,
+  "contact_sheet_visual_review": "Passed: decoded twelve-scene contact sheet opened with image viewer; headings, diagrams and explanations readable, inside conservative safe area, with no visible text/graphic overlaps. Reviewed 2026-10-21.",
+  "playback_review": "Full software video/audio decode checked; human real-time listening not performed.",
+  "probe_method": "FFmpeg input stream probe and full frame/sample decode; ffprobe executable unavailable.",
+  "caption_characters": 1135,
+  "hashtags": [
+    "#AIinScience",
+    "#AlphaFold",
+    "#CancerResearch",
+    "#DrugDiscovery",
+    "#ScienceCommunication"
+  ],
+  "caption_validation_passed": true,
+  "encoder": "/private/var/folders/y5/scc6rl257llf7tzgxdrftqvc0000gn/T/social-media-agent-recovery.5nejzN7ucO/repo/tests/AgentAI SocialMedia/biophysics-instagram-publisher/.venv/lib/python3.9/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1",
+  "silent": false,
+  "source_date": "2026-10-21",
+  "voice": "Flite 2.2 bundled cmu_us_slt",
+  "voice_rights_basis": "Upstream COPYING and bundled cmu_us_slt source grant unrestricted use/distribution including publish/sell, subject to notices and no endorsement. No Apple voice, voice cloning, music or third-party footage.",
+  "voice_source": "https://github.com/festvox/flite/tree/v2.2/lang/cmu_us_slt",
+  "flite_archive_sha256": "ab1555fe5adc3f99f1d4a1a0eb1596d329fd6d74f1464a0097c81f53c0cf9e5c",
+  "narration_timing": [
+    {
+      "scene": 1,
+      "start_seconds": 0.4,
+      "speech_seconds": 13.991,
+      "original_seconds": 13.645,
+      "tempo": 0.9746428571428571,
+      "text": "A fit is not a cure. Alpha Fold three predicts how molecules may be arranged together. That is a powerful scientific starting point, but it does not prove that a cancer treatment works. Let's separate the prediction from the evidence."
+    },
+    {
+      "scene": 2,
+      "start_seconds": 15.4,
+      "speech_seconds": 14.023625,
+      "original_seconds": 15.84,
+      "tempo": 1.1314285714285715,
+      "text": "Meet the molecular cast. Proteins do many jobs in cells. DNA and RNA carry biological information. Small molecules and ions can interact with them. Alpha Fold three predicts joint structures involving these different kinds of molecular partners."
+    },
+    {
+      "scene": 3,
+      "start_seconds": 30.4,
+      "speech_seconds": 14.0181875,
+      "original_seconds": 16.115,
+      "tempo": 1.1510714285714285,
+      "text": "Shape matters, and context matters. The arrangement of molecular partners can suggest how they might interact. These moving shapes are original schematic diagrams, not actual model outputs. A plausible fit is a hypothesis to investigate, not a measured result."
+    },
+    {
+      "scene": 4,
+      "start_seconds": 45.4,
+      "speech_seconds": 14.015,
+      "original_seconds": 15.79,
+      "tempo": 1.127857142857143,
+      "text": "The primary paper describes a diffusion based architecture. In simplified terms, the model refines noisy molecular coordinates into a predicted complex. Our animation illustrates that idea only. It is not a recording of the model's internal computation."
+    },
+    {
+      "scene": 5,
+      "start_seconds": 60.4,
+      "speech_seconds": 14.0015625,
+      "original_seconds": 17.925,
+      "tempo": 1.280357142857143,
+      "text": "One framework can handle many kinds of partners. That broader scope is important because biology depends on interactions, not isolated proteins alone. The paper reports structural prediction benchmarks. Those benchmarks measure prediction performance, not patient outcomes or treatment success."
+    },
+    {
+      "scene": 6,
+      "start_seconds": 75.4,
+      "speech_seconds": 13.9936875,
+      "original_seconds": 15.775,
+      "tempo": 1.1267857142857143,
+      "text": "Here is a published example. Figure one in the paper includes a bacterial regulatory protein with DNA and cyclic G M P. It illustrates the model's molecular scope. It is not a cancer therapy example, and this artwork does not reproduce its atomic coordinates."
+    },
+    {
+      "scene": 7,
+      "start_seconds": 90.4,
+      "speech_seconds": 6.4755,
+      "original_seconds": 6.105,
+      "tempo": 0.9392307692307693,
+      "text": "Pause and predict. Does a predicted molecular fit prove a medicine works? Think about what evidence is missing. "
+    },
+    {
+      "scene": 7,
+      "start_seconds": 98.0,
+      "speech_seconds": 6.516125,
+      "original_seconds": 10.2,
+      "tempo": 1.5692307692307692,
+      "text": "The answer is false. A predicted fit does not establish biological activity, treatment safety, or clinical benefit. Those are separate scientific questions."
+    },
+    {
+      "scene": 8,
+      "start_seconds": 105.4,
+      "speech_seconds": 14.0033125,
+      "original_seconds": 17.345,
+      "tempo": 1.2389285714285714,
+      "text": "Confidence is not certainty. The authors discuss limitations including incorrect geometry and plausible looking invented structure. Accuracy can depend on the target. Confidence estimates help researchers judge a prediction, but they cannot replace experimental checks or guarantee correctness."
+    },
+    {
+      "scene": 9,
+      "start_seconds": 120.4,
+      "speech_seconds": 14.0221875,
+      "original_seconds": 16.47,
+      "tempo": 1.1764285714285714,
+      "text": "Now prediction meets the laboratory. Researchers can measure whether molecules bind and test what happens in biological systems. Results may support a hypothesis, challenge it, or suggest a new experiment. A structure alone does not establish how a molecule affects disease."
+    },
+    {
+      "scene": 10,
+      "start_seconds": 135.4,
+      "speech_seconds": 14.020125,
+      "original_seconds": 17.385,
+      "tempo": 1.2417857142857145,
+      "text": "For cancer research, structural predictions may help generate hypotheses about molecular interactions. That is different from demonstrating an effective treatment. Claims about a therapy's safety and clinical benefit require appropriate clinical evidence. This paper does not announce a cancer cure."
+    },
+    {
+      "scene": 11,
+      "start_seconds": 150.4,
+      "speech_seconds": 14.013875,
+      "original_seconds": 15.925,
+      "tempo": 1.1375,
+      "text": "A structure is not a movie. Real molecules move, and their environment matters. A single predicted arrangement does not capture every biological state or the full range of molecular motion. The movement shown here is illustrative, not a validated simulation."
+    },
+    {
+      "scene": 12,
+      "start_seconds": 165.4,
+      "speech_seconds": 14.019,
+      "original_seconds": 16.92,
+      "tempo": 1.2085714285714286,
+      "text": "Predict, test, and question again. Alpha Fold three expands molecular structure prediction, while experiments determine what those predictions mean in practice. This is an independent topic explainer, not a verified transcript summary of the linked short. What experiment would you ask for next?"
+    }
+  ],
+  "mp4_sha256": "34effc7de01e27d03c438e7b4433dda2ccc4b5894772b358b2e4897ce7455469"
+}

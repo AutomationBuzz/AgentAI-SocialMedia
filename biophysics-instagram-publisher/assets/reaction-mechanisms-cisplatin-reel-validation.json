@@ -1,0 +1,152 @@
+{
+  "full_decode_passed": true,
+  "decoded_frames": 4320,
+  "duration_seconds": 180.0,
+  "width": 720,
+  "height": 1280,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "fps": 24,
+  "audio_streams": 1,
+  "audio_codec": "aac",
+  "audio_rate": 48000,
+  "decoded_audio_duration_seconds": 180.01066666666668,
+  "audio_rms_dbfs": -15.27,
+  "audio_peak_dbfs": -2.65,
+  "audio_clipped_samples": 0,
+  "longest_silence_below_minus_50_db_seconds": 1.4,
+  "audio_scene_rms_dbfs": [
+    -15.14,
+    -13.76,
+    -16.08,
+    -16.17,
+    -15.59,
+    -15.75,
+    -15.99,
+    -14.63,
+    -14.75,
+    -15.35,
+    -15.75,
+    -14.96
+  ],
+  "text_bounds_assertions": true,
+  "contrast_ink_on_paper_ratio": 14.46,
+  "probe_method": "Bundled FFmpeg full video decode and full PCM audio decode; ffprobe not required.",
+  "contact_sheet_visual_review": "Passed: twelve decoded scene midpoint contact sheet reviewed 2026-10-21; legible safe-area text, no visible text overlap, original mechanism diagrams, clinical bridge and toxicity panels readable.",
+  "cover_visual_review": "Passed: cover reviewed 2026-10-21; explicitly contrasts SN1/SN2/E1/E2 with cisplatin platinum ligand exchange/aquation and DNA adducts/crosslinks; text fits and is legible.",
+  "caption_characters": 1207,
+  "hashtags": [
+    "#OrganicChemistry",
+    "#ReactionMechanisms",
+    "#Cisplatin",
+    "#CancerResearch",
+    "#ScienceEducation"
+  ],
+  "caption_validation_passed": true,
+  "voice": "Flite 2.2 bundled cmu_us_slt",
+  "voice_rights_basis": "Upstream COPYING and bundled voice notice; permissive use and distribution with notice retention and no endorsement.",
+  "voice_source": "https://github.com/festvox/flite/tree/v2.2/lang/cmu_us_slt",
+  "flite_archive_sha256": "ab1555fe5adc3f99f1d4a1a0eb1596d329fd6d74f1464a0097c81f53c0cf9e5c",
+  "narration_timing": [
+    {
+      "scene": 1,
+      "start_seconds": 0.45,
+      "speech_seconds": 13.9871875,
+      "original_seconds": 12.94,
+      "tempo": 0.9242857142857143,
+      "text": "Four fundamental patterns help organize reactions at carbon. Substitution swaps one group for another. Elimination removes groups to form a carbon carbon double bond. Each can follow two common pathways."
+    },
+    {
+      "scene": 2,
+      "start_seconds": 15.45,
+      "speech_seconds": 13.988625,
+      "original_seconds": 13.33,
+      "tempo": 0.9521428571428572,
+      "text": "Meet the cast. The substrate is the molecule being changed. A leaving group departs with the bonding electron pair. A nucleophile donates an electron pair to an electron-poor carbon. A base can remove a nearby hydrogen."
+    },
+    {
+      "scene": 3,
+      "start_seconds": 30.45,
+      "speech_seconds": 13.9789375,
+      "original_seconds": 13.1,
+      "tempo": 0.9357142857142857,
+      "text": "In S N two, the nucleophile attacks the carbon as the leaving group departs, in one concerted step. A crowded carbon makes approach harder. A good nucleophile and leaving group can help, but solvent and substrate also matter."
+    },
+    {
+      "scene": 4,
+      "start_seconds": 45.45,
+      "speech_seconds": 14.021,
+      "original_seconds": 15.28,
+      "tempo": 1.0914285714285714,
+      "text": "In S N one, the leaving group departs first. That creates a carbocation, a positively charged carbon intermediate. A nucleophile attacks afterward. Carbocation stability and solvent influence this pathway; it is not simply a stronger-nucleophile contest."
+    },
+    {
+      "scene": 5,
+      "start_seconds": 60.45,
+      "speech_seconds": 14.0121875,
+      "original_seconds": 16.255,
+      "tempo": 1.1610714285714285,
+      "text": "Once a carbocation forms, substitution and elimination can compete. A nucleophile can bond to the positively charged carbon. Or a base can remove a neighboring hydrogen and form a double bond. Structure, solvent, temperature, and reagent shape the outcome."
+    },
+    {
+      "scene": 6,
+      "start_seconds": 75.45,
+      "speech_seconds": 13.997125,
+      "original_seconds": 13.07,
+      "tempo": 0.9335714285714286,
+      "text": "In E two, a base removes a beta hydrogen while the leaving group departs from the adjacent carbon. The double bond forms in that same concerted step. Geometry matters: the hydrogen and leaving group must align appropriately."
+    },
+    {
+      "scene": 7,
+      "start_seconds": 90.45,
+      "speech_seconds": 13.9818125,
+      "original_seconds": 11.96,
+      "tempo": 0.8542857142857143,
+      "text": "In E one, the leaving group departs first to form a carbocation. Then a base removes a beta hydrogen, and a double bond forms. Because S N one and E one share an intermediate, their products may compete."
+    },
+    {
+      "scene": 8,
+      "start_seconds": 105.45,
+      "speech_seconds": 14.014625,
+      "original_seconds": 15.185,
+      "tempo": 1.0846428571428572,
+      "text": "Use the four labels as a starting map, not automatic answers. Carbon substitution, nucleophile or base strength, leaving-group ability, solvent, and heat all matter. Real reactions can be mixed or depart from simple textbook trends."
+    },
+    {
+      "scene": 9,
+      "start_seconds": 120.45,
+      "speech_seconds": 14.015,
+      "original_seconds": 15.0,
+      "tempo": 1.0714285714285714,
+      "text": "Now a real-world connection, with an important boundary. Cisplatin is an FDA-approved platinum chemotherapy used in certain bladder, ovarian, and testicular cancer settings. Its chemistry is not S N one, S N two, E one, or E two."
+    },
+    {
+      "scene": 10,
+      "start_seconds": 135.45,
+      "speech_seconds": 14.019125,
+      "original_seconds": 18.55,
+      "tempo": 1.325,
+      "text": "Cisplatin undergoes platinum ligand substitution, including aquation in biological conditions. Platinum can form DNA adducts and crosslinks, disrupting DNA replication and repair. That is coordination chemistry at platinum, not substitution at an organic carbon or an elimination pathway."
+    },
+    {
+      "scene": 11,
+      "start_seconds": 150.45,
+      "speech_seconds": 14.01025,
+      "original_seconds": 18.28,
+      "tempo": 1.3057142857142858,
+      "text": "Cisplatin can cause serious kidney injury, hearing damage, nausea and vomiting, and peripheral neuropathy. The FDA-submitted label says it should be given under qualified physician supervision. Treatment and risks depend on the indication and individual protocol; this is not personal medical advice."
+    },
+    {
+      "scene": 12,
+      "start_seconds": 165.45,
+      "speech_seconds": 13.999375,
+      "original_seconds": 14.955,
+      "tempo": 1.0682142857142858,
+      "text": "The takeaway: mechanisms explain patterns, not every reaction or a patient's outcome. Cisplatin is a useful clinical example precisely because its platinum and DNA chemistry is different. Questions about treatment belong with the oncology care team."
+    }
+  ],
+  "mp4_sha256": "2a38d92a00f7b3851ba58a0083e4e8a5cdc1da75ea263a2453e5726b68e6425f",
+  "source_date": "2026-10-21",
+  "clinical_claims_reviewed": true,
+  "publication_performed": false
+}

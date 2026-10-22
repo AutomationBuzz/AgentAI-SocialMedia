@@ -1,0 +1,5 @@
+Five errors per million operations, in a reported test. Quantinuum says its Helios system reached 99.9995% logical fidelity using a color code. A promising experimental milestone for quantum error correction, not proof that large-scale fault-tolerant computing is already here. Scaling and commercial performance remain to be demonstrated.
+
+Source: Quantinuum, October 19, 2026: https://www.quantinuum.com/press-releases/quantinuum-breaks-error-correction-world-record-by-10x-validating-its-leading-path-to-fault-tolerant-quantum-computing-by-2029
+
+#QuantumComputing #QuantumErrorCorrection #QuantumPhysics #ScienceNews #Physics

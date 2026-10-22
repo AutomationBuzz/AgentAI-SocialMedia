@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Preview Poster",
+			"type": "process",
+			"command": "python3",
+			"args": [
+				"-m",
+				"http.server",
+				"8876",
+				"--bind",
+				"127.0.0.1",
+				"--directory",
+				"${workspaceFolder}/assets"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}

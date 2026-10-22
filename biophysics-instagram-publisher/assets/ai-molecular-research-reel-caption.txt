@@ -1,0 +1,14 @@
+An AI-predicted molecular structure is a hypothesis, not a cancer cure.
+
+AlphaFold 3 predicts joint structures of molecular complexes, including proteins, DNA/RNA and small molecules. Its diffusion-based model can help researchers explore how molecules may fit together, but a plausible pose is not proof of binding, biological activity, safety or clinical benefit.
+
+This original, narrated 3-minute explainer separates prediction from measurement: inspect model uncertainty, test interactions experimentally, study biological effects, and require clinical evidence for claims about treatments. Pause for the quiz: does a predicted fit prove a medicine works?
+
+Independent educational explainer, not a summary of the linked Short. Video metadata was verified; no transcript was available. All animation is original schematic artwork, not an AlphaFold output or experimental structure.
+
+Primary source: Abramson et al., Nature (2024), DOI: 10.1038/s41586-024-07487-w
+https://www.nature.com/articles/s41586-024-07487-w
+
+What experiment would you ask for next?
+
+#AIinScience #AlphaFold #CancerResearch #DrugDiscovery #ScienceCommunication

@@ -1,0 +1,13 @@
+How does a memory live in a brain-wide network?
+
+Recent Nature-family research points to interacting neuronal ensembles, astrocytes and changing synapses. A 2024 review describes how partly overlapping engrams may link memories formed close together while preserving differences. A 2025 mouse study found learning-associated hippocampal astrocyte ensembles closely affiliated with engram neurons; reactivating them stimulated recall. Two 2025 Nature Neuroscience studies add tools to map synaptic protein turnover and AMPA-receptor exocytosis during learning.
+
+Important: the astrocyte and synaptic experiments are in mice. Tool papers map candidate plasticity; they do not directly measure human memory, diagnose people, or resolve consciousness. The network artwork is conceptual, not a brain scan or measured connectome.
+
+Selected sources:
+Choucry et al., Nature Reviews Neuroscience (2024): https://doi.org/10.1038/s41583-024-00814-0
+Williamson et al., Nature (2025): https://doi.org/10.1038/s41586-024-08170-w
+Mohar et al., Nature Neuroscience (2025): https://doi.org/10.1038/s41593-025-01923-4
+Kim et al., Nature Neuroscience (2025): https://doi.org/10.1038/s41593-025-01922-5
+
+#Neuroscience #MemoryResearch #BrainNetworks #Neurobiology #ScienceCommunication

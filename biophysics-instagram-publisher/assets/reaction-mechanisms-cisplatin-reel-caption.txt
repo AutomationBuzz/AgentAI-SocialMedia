@@ -1,0 +1,12 @@
+An independent explainer inspired by the public title “Reaction Mechanisms: How to Master the 4 Fundamental Patterns.” The linked video could not be viewed and no transcript was available; this is not a transcript or scene-by-scene summary. No video, thumbnail, or audio was used.
+
+SN1/SN2/E1/E2 describe common substitution and elimination pathways at carbon. Cisplatin connects chemistry to clinical practice, but its platinum ligand-exchange/aquation and DNA-adduct/crosslink chemistry is not one of those four pathways. Cisplatin is FDA-approved for certain cancer indications; it can have serious toxicities and is administered under clinician supervision. This educational reel is not medical advice and cannot predict individual benefit.
+
+Sources: NCI Cisplatin; DailyMed FDA-submitted cisplatin label; OpenStax Organic Chemistry, Chapter 11.
+https://www.cancer.gov/about-cancer/treatment/drugs/cisplatin
+https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de6302d5-85f0-4116-a709-57826c2c84fe
+https://openstax.org/books/organic-chemistry/pages/chapter-11
+
+What distinction between these pathways surprised you?
+
+#OrganicChemistry #ReactionMechanisms #Cisplatin #CancerResearch #ScienceEducation

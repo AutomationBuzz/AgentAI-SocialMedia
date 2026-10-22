@@ -1,0 +1,17 @@
+Predict. Measure. Refine.
+
+Biophysics + AI works best as a conversation between physical models, machine learning and experiments.
+
+Physical models describe interactions and geometry. Machine learning can learn patterns from data while incorporating physical and biological constraints. Experiments provide measurements against which predictions can be tested.
+
+One example: AlphaFold predicts protein structures and estimates confidence. Jumper et al. (Nature, 2021) evaluated its predictions against experimentally determined structures, including the blind CASP14 assessment. A predicted structure is not itself a measurement, and does not by itself establish protein dynamics or biological function.
+
+Good validation asks: How uncertain is the prediction? How does it compare with independent measurements and their experimental error? Does it still work out-of-distribution, on new proteins or conditions beyond the training data? Confidence and physical constraints are not guarantees of correctness.
+
+Use models to sharpen hypotheses, experiments to challenge them, and the results to refine the next model. AI complements experiments; it does not replace them.
+
+Original conceptual illustration: the chain, network and plot are schematic, not a specific protein, model architecture or experimental dataset.
+
+Source: Jumper et al., https://www.nature.com/articles/s41586-021-03819-2
+
+#Biophysics #AIinScience #ComputationalBiology #MachineLearning #ScienceCommunication

@@ -1,0 +1,59 @@
+{
+  "dataset": "NHANES 2011-2012 public release",
+  "component": "CFQ_G",
+  "measure_variable": "CFDCSR",
+  "measure_label": "CERAD: Score Delayed Recall",
+  "completion_variable": "CFDCCS",
+  "included_completion_code": 1,
+  "weight_variable": "WTMEC2YR",
+  "design_variables": [
+    "SDMVSTRA",
+    "SDMVPSU"
+  ],
+  "valid_completed_n": 1451,
+  "age_min": 60,
+  "age_max": 80,
+  "score_min": 0,
+  "score_max": 10,
+  "visual_low_band": "0-2 (illustrative visualization band only; not a clinical threshold)",
+  "visual_low_band_unweighted_n": 175,
+  "visual_low_band_unweighted_percent": 12.06,
+  "visual_low_band_weighted_percent": 9.59,
+  "weighted_score_bands": [
+    {
+      "band": "0-2",
+      "unweighted_n": 175,
+      "weighted_percent": 9.59
+    },
+    {
+      "band": "3-4",
+      "unweighted_n": 292,
+      "weighted_percent": 17.57
+    },
+    {
+      "band": "5-6",
+      "unweighted_n": 467,
+      "weighted_percent": 30.91
+    },
+    {
+      "band": "7-8",
+      "unweighted_n": 394,
+      "weighted_percent": 30.21
+    },
+    {
+      "band": "9-10",
+      "unweighted_n": 123,
+      "weighted_percent": 11.73
+    }
+  ],
+  "uncertainty_interval_reported": false,
+  "population_prevalence_claim": false,
+  "raw_microdata_stored_in_project": false,
+  "hashtags": [
+    "#MemoryResearch",
+    "#Neuroscience",
+    "#BrainHealth",
+    "#ScienceCommunication",
+    "#NHANES"
+  ]
+}
